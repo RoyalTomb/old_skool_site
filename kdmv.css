@@ -342,5 +342,7 @@ nav ul li {
     }
     .toy_model_container {
         width: 100%;
+        width: 70vw;
+        height: 40vh;
     }
 }
