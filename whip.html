@@ -1,0 +1,136 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="kdmv.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/mnou_plii_pluh.js">
+    </script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <title>
+    Royal | Whip
+    </title>
+</head>
+<body class="body">
+    <div class="content_box">
+        <div class="heading_section">
+            <a href="/index.html">
+            <img src="/jawns/home_button.png" class="home_button">
+            </a>
+            <nav>
+                <ul id="header_menu">
+                    <li><a href="/index.html" class="heading_text">Main</a></li>
+                    <li><a href="/food.html" class="heading_text">Food</a></li>
+                    <li><a href="/whip.html" class="heading_text">Whip</a></li>
+                    <li><a href="/connections.html" class="heading_text">Links</a></li>
+                </ul>
+            </nav>
+            <img src="/jawns/dropdown.png" class="dropdown_button" onclick="header_toggle()">
+        </div>
+        <div class="info_section">
+            <div class="big_heart">
+                <p class="intro_quote"><i>"<b>That's</b> how you keep everyone alive, <b>including</b> the squirrel"</i></p>
+                <p class="intro_person">—Eva Rosalene</p>
+                <div style="height: 50px">
+                </div>
+                <table class="table_contents">
+                    <tr>
+                        <td style="font-family: Arial; font-size: 24; border-bottom: 1px solid rgb(116, 148, 178);">
+                            <b>Contents</b>
+                            <button onclick="content_toggle()" class="content_button" id="show_hide_button">[Hide]</button>
+                        </td>
+                    </tr>
+                    <tr id="content_list">
+                        <td style="font-family: Arial">
+                            <ul style="margin-top: 10px">
+                                <li><a href="#section_whip" class="list_contents">The Concept in Question</a></li>
+                                <li><a href="#section_specs" class="list_contents">The Build</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <p id="section_whip" class="section_heading">
+                <b>Windows Down, Music Up</b>
+                </p>
+                <p class="section_info">
+                If it's not Japanese, then I am not drivin' it or fcckin' with it. Between 
+                trash-ass tesla, Failure Of Research + Design, Charged-Heavily, More Seized 'n' Bent, 
+                Jokeswagon, Dodge-Shit, Badly Made Wheelbase, Rundown-Ass Mistake... tchyeah, keep it &#x1F9B7;
+                <br>
+                <br>
+                <div class="toy_model_container">
+                    <model-viewer class="toy_model" src="/jawns/toy_car.glb" alt="The concept in question" 
+                    auto-rotate camera-controls>
+                    </model-viewer>
+                </div>
+                <p class="section_info">Toy model not to scale</p>
+                </p>
+                <p id="section_specs" class="section_heading">
+                <b>The Build</b>
+                </p>
+                <p class="section_info">
+                Fun to drive and piss off buhls that're into <i>muscle cars</i> xppp
+                <br>
+                <br>
+                Toyo Tires
+                <br>
+                Rotiform CSWs, 15"
+                <br>
+                Muteki Lug Nutz
+                <br>
+                HKS Muffler
+                <br>
+                RokBlokz Mud Flaps
+                <br>
+                eBay Shift Knob Sleeve
+                <br>
+                BC Racing Coilovers, DS Series
+                <br>
+                Astra Depot Fog Lights
+                <br>
+                Auto Ventshade Rain Guards
+                <br>
+                stock Engine Bay
+                <br>
+                Mugen Spoiler, Integra-Style
+                <br>
+                Culture
+                </p>
+            </div>
+            <div class="big_nutz" style="background-color: rgba(29, 4, 1, 0.750);">
+                <div style="text-align: center; margin-top: 10%; margin-bottom: 10%;">
+                    <img src="/jawns/side_image_whip.png">
+                </div>
+            </div>
+        </div>
+        <div class="closing_image">
+            <img src="/jawns/bonnie_and_clyde.png" title="'Seatbelts, kids'" alt="'Seatbelts, kids'" style="width: 85%">
+        </div>
+        <footer class="footnote">
+        So you got leather seats and 500 hp. I hope ya didn't forget yo' back-up camera too xd
+        </footer>
+    </div>
+</body>
+<script>
+    var menu = document.getElementById("header_menu")
+    menu.style.maxHeight = "0px";
+
+    function header_toggle() {
+
+        if (menu.style.maxHeight == "0px") {
+            menu.style.maxHeight = "105px";
+        }
+        else {
+            menu.style.maxHeight = "0px";
+        }
+    }
+</script>
+</html>

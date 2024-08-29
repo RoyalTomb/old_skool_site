@@ -1,0 +1,346 @@
+@font-face {
+    font-family: Heading;
+    src: url(/jawns/heading.otf) /* font by Google */
+}
+
+.body {
+    background-color: rgba(187, 132, 127, 1);
+    background-image: url(/jawns/background.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content_box {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.heading_section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 6px;
+    background-color: rgba(41, 52, 78, 0.750);
+}
+
+.home_button {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.home_button:hover {
+    opacity: 0.750;
+}
+
+.heading_text {
+    font-family: Heading;
+    font-size: 64px;
+    color: rgb(211, 162, 156);
+}
+
+.heading_text:hover {
+    color: rgb(230, 43, 17);
+}
+
+.dropdown_button {
+    width: 25px;
+    display: none;
+}
+
+.info_section {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 100px;
+}
+
+.info_section > div {
+    margin: 0px;
+}
+
+.big_heart {
+    flex: 1;
+    position: relative;
+    flex-basis: 70%;
+    border-radius: 6px 0 0 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(29, 4, 1, 0.750);
+}
+
+.big_nutz {
+    position: relative;
+    /* display: flex; */
+    flex-basis: 30%;
+    border-radius: 0 6px 6px 0;
+    background-color: rgba(51, 13, 31, 0.750);
+}
+
+.intro_quote {
+    font-family: Cambria;
+    font-size: 45px;
+    color: rgb(227, 188, 187);
+    text-align: center;
+}
+
+.intro_person {
+    font-family: Trebuchet MS;
+    font-size: 28;
+    color: rgb(227, 188, 187);
+    text-align: right;
+    margin-right: 125px;
+}
+
+.section_heading {
+    font-family: Arial;
+    font-size: 28;
+    color: rgb(234, 206, 195);
+    border-bottom: 1px solid rgb(227, 188, 187);
+}
+
+.section_info {
+    font-family: Verdana;
+    font-size: 16;
+    color: rgb(234, 206, 195);
+}
+
+.section_heading_first {
+    font-family: Arial;
+    font-size: 28;
+    width: 50%;
+    color: rgb(234, 206, 195);
+    border-bottom: 1px solid rgb(227, 188, 187);
+}
+
+.section_info_first {
+    font-family: Verdana;
+    font-size: 16;
+    width: 50%;
+    color: rgb(234, 206, 195);
+}
+
+.table_contents {
+    border: 1px solid rgb(116, 148, 178);
+    width: 25%;
+    margin-left: 50px;
+    border-spacing: 0px;
+    color: rgb(116, 148, 178);
+}
+
+.content_button {
+    border: none;
+    color: rgba(116, 148, 178, 1);
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.content_button:hover {
+    color: rgb(230, 43, 17);
+}
+
+.list_contents {
+    color: rgb(116, 148, 178);
+}
+
+.list_contents:hover {
+    color: rgb(230, 43, 17);
+}
+
+.connection_link {
+    color: rgb(234, 206, 195);
+}
+
+.connection_link:hover {
+    color: rgb(230, 43, 17);
+}
+
+.final_form_image {
+    position: relative;
+    margin-top: 25px;
+}
+
+.final_form_description {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: rgb(141, 136, 138);
+    font-family: Helvetica;
+}
+
+.side_table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.side_table_block_heading {
+    font-family: Arial;
+    font-size: 28;
+    color: rgb(207, 155, 145);
+    border: 2px solid rgba(141, 136, 138, 0.750);
+}
+
+.side_table_block_first {
+    font-family: Verdana;
+    font-size: 16;
+    border: 2px solid rgba(141, 136, 138, 0.750);
+    color: rgb(207, 155, 145);
+}
+
+.side_table_block {
+    font-family: Verdana;
+    font-size: 16;
+    border: 2px solid rgba(141, 136, 138, 0.750);
+    border-top: 0px;
+    color: rgb(207, 155, 145);
+}
+
+.block_heading {
+    font-family: Tahoma;
+    font-size: 20;
+    margin-bottom: 0;
+}
+
+.block_info {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14;
+}
+
+.toy_model_container {
+    width: 50vw;
+    height: 50vh;
+}
+
+.toy_model {
+    width: inherit;
+    height: inherit;
+}
+
+.footnote {
+    background-color: rgba(45, 37, 49, 0.750);
+    font-family: Verdana;
+    font-size: 14;
+    border-radius: 3px;
+    color: rgb(234, 206, 195);
+}
+
+.closing_image {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#header_menu {
+    margin-bottom: 7%;
+    padding-top: 8%;
+}
+
+@media only screen and (max-width: 900px){
+    nav ul {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        z-index: 2;
+        background-color: rgba(46, 35, 49, 0.750);
+    }
+    nav ul li {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #header_menu {
+        overflow: hidden;
+        transition: 0.5s;
+        margin-bottom: 0;
+        padding-top: 0%;
+    }
+    .heading_section {
+        margin-top: 0px;
+        padding: 0px;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .home_button {
+        width: 50px;
+        margin-left: 0px;
+    }
+    .dropdown_button {
+        display: block;
+    }
+    .heading_text {
+        font-size: 16;
+    }
+    .intro_quote {
+        font-size: 28;
+    }
+    .intro_person {
+        font-size: 24;
+    }
+    .info_section {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section_heading_first {
+        width: 100%;
+    }
+    .section_info_first {
+        width: 100%;
+    }
+    .big_heart {
+        height: 100px;
+        order: 2;
+        border-radius: 0 0 6px 6px;
+    }
+    .big_heartt {
+        height: 100px;
+        order: 2;
+        border-radius: 6px 6px 6px 6px;
+    }
+    .big_nutz {
+        height: 200px;
+        order: 1;
+        border-radius: 6px 6px 0 0;
+    }
+    .final_form_image {
+        width: 200px;
+        height: 200px;
+    }
+    .footnote {
+        font-size: 10;
+    }
+    .closing_image {
+        width: 80%;
+    }
+    .toy_model_container {
+        width: 100%;
+    }
+}
