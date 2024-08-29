@@ -1,11 +1,11 @@
 @font-face {
     font-family: Heading;
-    src: url(/jawns/heading.otf) /* font by Google */
+    src: url(jawns/heading.otf) /* font by Google */
 }
 
 .body {
     background-color: rgba(187, 132, 127, 1);
-    background-image: url(/jawns/background.webp);
+    background-image: url(jawns/background.webp);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
