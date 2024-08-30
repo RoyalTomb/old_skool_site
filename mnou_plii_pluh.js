@@ -1,4 +1,4 @@
-function content_toggle(button) {
+function content_toggle() {
     var list = document.getElementById('content_list')
     var button = document.getElementById('show_hide_button')
 
