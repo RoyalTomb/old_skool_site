@@ -15,6 +15,11 @@
     <title>
     Royal | Whip
     </title>
+    <style>
+        #content_list.hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body class="body">
     <div class="content_box">
@@ -114,18 +119,26 @@
         </footer>
     </div>
     <script>
-    var menu = document.getElementById("header_menu")
-    menu.style.maxHeight = "0px";
+        const button = document.getElementById("show_hide_button");
+        const div = document.getElementById("content_list");
 
-    function header_toggle() {
+        button.addEventListener("click", () => {
+            div.classList.toggle("hidden");
+            button.textContent = div.classList.contains("hidden") ? "[Show]" : "[Hide]";
+        });
 
-        if (menu.style.maxHeight == "0px") {
-            menu.style.maxHeight = "105px";
+        var menu = document.getElementById("header_menu")
+        menu.style.maxHeight = "0px";
+    
+        function header_toggle() {
+    
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "105px";
+            }
+            else {
+                menu.style.maxHeight = "0px";
+            }
         }
-        else {
-            menu.style.maxHeight = "0px";
-        }
-    }
     </script>
 </body>
 </html>
