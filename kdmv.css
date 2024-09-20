@@ -291,6 +291,9 @@ nav ul li {
         margin-top: 0%;
         padding: 0%;
     }
+    .body {
+        background-position: center;
+    }
     .heading_section {
         margin-top: 0px;
         padding: 0px;
