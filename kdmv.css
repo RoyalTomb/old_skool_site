@@ -3,7 +3,14 @@
     src: url(jawns/heading.otf) /* font by Google */
 }
 
+html {
+    width: 100%;
+    margin: 0;
+}
+
 .body {
+    width: 100%;
+    margin: 0;
     background-color: rgba(187, 132, 127, 1);
     background-image: url(jawns/background.webp);
     background-size: cover;
@@ -23,7 +30,7 @@
 
 .heading_section {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,6 +139,8 @@
 .table_contents {
     border: 1px solid rgb(116, 148, 178);
     width: 25%;
+    max-width: 184px;
+    min-width: 121px;
     margin-left: 50px;
     border-spacing: 0px;
     color: rgb(116, 148, 178);
@@ -238,6 +247,7 @@
     font-size: 14px;
     border-radius: 3px;
     color: rgb(234, 206, 195);
+    margin-bottom: 5px;
 }
 
 .closing_image {
@@ -292,8 +302,6 @@ nav ul li {
         padding: 0%;
     }
     .body {
-        margin: 0;
-        height: 100vh;
         background-position: center;
     }
     .heading_section {
@@ -345,8 +353,8 @@ nav ul li {
         border-radius: 6px 6px 0 0;
     }
     .final_form_image {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
     }
     .footnote {
         font-size: 10px;
