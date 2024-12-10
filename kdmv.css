@@ -13,7 +13,7 @@
     background-image: url(jawns/background.webp);
     background-size: cover;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
