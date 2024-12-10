@@ -3,19 +3,21 @@
     src: url(jawns/heading.otf) /* font by Google */
 }
 
-html {
-    width: 100%;
-    margin: 0;
+.body {
+    background-color: rgba(187, 132, 127, 1);
 }
 
-.body {
-    margin: 0;
-    height: 100vh;
+.background {
+    top: 0;
+    left: 0;
     background-image: url(jawns/background.webp);
-    background-color: rgba(187, 132, 127, 1);
     background-size: cover;
-    /* background-position: center; */
-    background-attachment: fixed;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -1;
 }
 
 .content_box {
@@ -301,7 +303,7 @@ nav ul li {
         margin-top: 0%;
         padding: 0%;
     }
-    .body {
+    .background {
         background-position: center;
     }
     .heading_section {
