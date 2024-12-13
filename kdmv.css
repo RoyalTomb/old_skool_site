@@ -297,6 +297,7 @@ nav ul li {
         padding: 0%;
     }
     .body {
+        background-attachment: none;
         background-size: contain;
         background-position: center;
     }
