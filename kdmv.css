@@ -4,13 +4,21 @@
 }
 
 .body {
-    background-color: rgba(187, 132, 127, 1);
     margin: 0;
     padding: 0;
+    background-color: rgba(187, 132, 127, 1);
+}
+
+.background {
+    top: 0;
+    left: 0;
     background-image: url(jawns/background.webp);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .content_box {
@@ -296,9 +304,7 @@ nav ul li {
         margin-top: 0%;
         padding: 0%;
     }
-    .body {
-        height: 100%;
-        background-size: cover;
+    .background {
         background-position: center;
     }
     .heading_section {
