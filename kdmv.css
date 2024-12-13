@@ -13,7 +13,6 @@
     background-image: url(jawns/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: fixed;
     overflow: auto;
     height: 100%;
